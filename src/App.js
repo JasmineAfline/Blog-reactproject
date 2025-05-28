@@ -7,6 +7,8 @@ import { ToastContainer} from 'react-toastify';
 import Navbar from './Components/Navbar';
 import Home from './Components/Home';
 import Create from './Components/Create';
+import BlogDetails from './Components/BlogDetails';
+// import useFetch from './useFetch';
 
 
 
@@ -24,6 +26,10 @@ function App() {
 
             <Route path="/create">
               <Create />
+            </Route>
+
+            <Route path= "/BlogDetails">
+            <BlogDetails/>
             </Route>
 
         
